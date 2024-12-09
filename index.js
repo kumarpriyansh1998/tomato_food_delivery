@@ -3,8 +3,7 @@ const { resolve } = require('path');
 let cors = require("cors");
 let sqlite3 = require("sqlite3").verbose();
 let { open } = require("sqlite");
-import fs from 'fs';
-import path from 'path';
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
