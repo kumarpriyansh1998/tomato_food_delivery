@@ -13,7 +13,7 @@ let db;
 
 (async () => {
   db = await open({
-    filename: "home/kumarpriyansh1998/tomato_food_delivery/database.sqlite",
+    filename: "/home/kumarpriyansh1998/tomato_food_delivery/database.sqlite",
     driver: sqlite3.Database,
   });
 })();
